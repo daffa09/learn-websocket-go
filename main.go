@@ -5,6 +5,17 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
+/*
+websocket adalah protokol komunikasi dua arah yang memungkinkan pertukaran pesan antara klien dan server dalam waktu nyata.
+ini sama saja dengan http request, tetapi perbedaan nya adalah jika http request hanya sekali request dan response,
+sedangkan websocket bisa request dan response berkali-kali.
+
+artinya selama koneksinya belum di tutup pada webscoket bisa komunikasi berkali-kali tanpa harus membuat koneksi baru.
+biasa digunakan pada aplikasi chat, bid and ask, dan lain-lain.
+
+bahkan dalam whastaap pun saat user tujuan sedang "typing" itu adalah contoh implementasi dari websocket
+*/
+
 type Message struct {
 	Name    string
 	Message string
