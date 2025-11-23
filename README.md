@@ -2,10 +2,12 @@
 <!-- slug: learn-websocket-go -->
 <!-- title: WebSocket Chat Server -->
 <!-- description: Real-time chat server built with Go and WebSocket for learning real-time communication -->
-<!-- image: https://github.com/daffa09/learn-websocket-go/assets/68214221/af0a2c94-1882-4180-86c6-fc0e69c02926 -->
+<!-- image: https://github.com/daffa09/learn-websocket-go/assets/68214221/ae00dbbd-14cb-4c83-ab15-079ec4157683 -->
 <!-- tags: golang, websocket, real-time, chat, server -->
 
 # WebSocket Chat Server (Go)
+
+![Message Broadcasting](https://github.com/daffa09/learn-websocket-go/assets/68214221/ae00dbbd-14cb-4c83-ab15-079ec4157683)
 
 A real-time chat server implementation built with Go and WebSocket protocol. This learning project demonstrates how to build WebSocket-based applications for real-time bidirectional communication between clients and server.
 
@@ -284,3 +286,4 @@ Open source - available for educational purposes.
 
 **Happy WebSocket Learning!** 🚀💬  
 Real-time communication made simple with Go!
+
